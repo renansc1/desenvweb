@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Eletrônicos Estácio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="css.css">
+  <style>
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Eletrônicos Estácio</h1>
+  </header>
+
+  <div id="products-list">
+  </div>
+
+  <div id="cart">
+    <h3><i class="fas fa-shopping-cart"></i> Carrinho de Compras</h3>
+    <div id="cart-items">
+    </div>
+  </div>
+
+  <button class="checkout-button" onclick="openPopup()">Checkout</button>
+
+  <div class="popup" id="popup">
+    <div class="popup-content">
+      <span class="popup-close" onclick="closePopup()">&times;</span>
+      <h3>Carrinho de Compras</h3>
+      <div id="popup-cart-items">
+      </div>
+      <button>Finalizar Compra</button>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2023 Eletrônicos Estácio. Desenv Web.</p>
+    <img src="estacio.png" alt="Logo da empresa" width="100">
+  </footer>
+
+  <script src="js.js"></script>
+</body>
+</html>
